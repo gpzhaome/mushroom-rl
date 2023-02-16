@@ -168,7 +168,7 @@ class MuJoCo(Environment):
 
     def stop(self):
         if self._viewer is not None:
-            self._viewer.stop()
+            # self._viewer.stop()
             del self._viewer
             self._viewer = None
 
