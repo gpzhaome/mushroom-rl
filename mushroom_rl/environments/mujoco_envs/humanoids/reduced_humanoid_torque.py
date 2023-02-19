@@ -33,7 +33,7 @@ class ReducedHumanoidTorque(BaseHumanoid):
         # xml_path = (Path(__file__).resolve().parent.parent / "data" / "reduced_humanoid_torque" /
         #             "reduced_humanoid_torque_nokp.xml").as_posix()
         xml_path = (Path(__file__).resolve().parent.parent / "data" / "reduced_humanoid_torque" /
-                    "reduced_robot_torque_nokp.xml").as_posix()
+                    "reduced_robot_torque.xml").as_posix()
 
         action_spec = [# motors
                        "mot_lumbar_ext", "mot_lumbar_bend", "mot_lumbar_rot", "mot_shoulder_flex_r",
