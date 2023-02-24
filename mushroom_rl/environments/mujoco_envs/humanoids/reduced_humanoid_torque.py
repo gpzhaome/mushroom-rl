@@ -31,7 +31,7 @@ class ReducedHumanoidTorque(BaseHumanoid):
         # xml_path = (Path(__file__).resolve().parent.parent / "data" / "reduced_humanoid_torque" /
         #             "reduced_humanoid_torque.xml").as_posix()
         # xml_path = (Path(__file__).resolve().parent.parent / "data" / "reduced_humanoid_torque" /
-        #             "reduced_humanoid_torque_nokp.xml").as_posix()
+        #             "reduced_humanoid_limittorque.xml").as_posix()
         xml_path = (Path(__file__).resolve().parent.parent / "data" / "reduced_humanoid_torque" /
                     "reduced_robot_torque.xml").as_posix()
 
